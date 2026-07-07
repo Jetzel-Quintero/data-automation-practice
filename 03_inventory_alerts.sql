@@ -1,5 +1,5 @@
 -- 03_inventory_alerts.sql
--- Identify products that need restocking (Stock less than 30 units)
+-- Identify products that need restocking (Stock less than 20 units)
 USE InventoryManagement;
 GO
 
