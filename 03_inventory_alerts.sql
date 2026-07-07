@@ -8,5 +8,5 @@ SELECT
     ProductName, 
     Stock 
 FROM Products
-WHERE Stock < 30;
+WHERE Stock < 20;
 GO
