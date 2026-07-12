@@ -4,12 +4,11 @@ This project is a collection of SQL scripts designed to automate stock managemen
 
 ## Project Structure
 
-- `01_create_tables.sql`: Initial setup of the database schema.
-- `02_insert_products.sql`: Script to populate the database with initial products.
-- `03_inventory_alerts.sql`: Implementation of logic to identify low-stock products.
-- `04_create_views.sql`: Custom views to simplify complex inventory queries.
-- `05_sell_product.sql`: Stored procedure to process sales and update stock.
-- `06_restock_product.sql`: Stored procedure to manage inventory replenishment.
+- `/schema` : Database schema and table definitions.
+- `/data` : Initial data population scripts.
+- `/procedures` : Stored procedures for sales and restock operations.
+- `/views` : Views for complex query simplification.
+- `/triggers` : Automation logic for inventory alerts.
 
 ## Challenges Faced
 
@@ -26,8 +25,9 @@ During the development of this project, I encountered the following challenges:
 
 ## How to use
 
-1. Run the scripts in order in SQL Server Management Studio (SSMS).
-2. Execute the stored procedures to manage your inventory.
+1. Execute files in `/schema` first.
+2. Run data population scripts in `/data`.
+3. Apply logic from `/procedures`, `/views`, and `/triggers`.
 
 ## Technologies
 
